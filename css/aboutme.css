@@ -1,14 +1,13 @@
 .shift{
     float:left;
-    wdith:200px;
     height:300px;
     padding-right:50px
 }
 
 .right{
     float:right;
-    width:700px;
-    padding-left:100px;
+    width:800px;
+    padding-left:80px;
     padding-top:0px;
     padding-bottom:0px;
     padding-right:0px;
