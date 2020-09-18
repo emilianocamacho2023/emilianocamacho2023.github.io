@@ -9,6 +9,9 @@
     float:right;
     width:700px;
     padding-left:100px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-right:0px;
 }
 html {
     background-color:black;
