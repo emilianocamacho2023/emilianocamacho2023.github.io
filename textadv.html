@@ -17,21 +17,43 @@
         #left_pane{
             background-color:green;
             height: 100%;
-            width: 5%;
+            width:50%;
             float:left;
+            display:flex;
+            align-items:center;
+            justify-content:center;
         }
         #right_pane{
             height:100%;
             float:left;
-            width: 44%;
+            width: 50%;
             background-color:blue;
         }
         #story_text{
             background-color:yellow;
             height:80%;
+            color:red;
         }
         #button_chocies{
+            background-color:pink;
+            height:20%;
 
+        }
+        #story_img{
+            height:auto;
+            width:auto;
+
+        }
+        #but{
+            text-decoration: none;
+            color:white;
+            background-color:black;
+            border-radius:8px;
+            padding:10px;
+            font-size:16px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
         }
 
     </style>
@@ -54,10 +76,19 @@
         </ul>
         
     <div id="container">
-        <div id="left_pane"></div>
-        <div id="right_pane"></div>
-            <div id="story_text"></div>
-            <div id="button_chocies"></div>
+        <div id="left_pane">
+            <img src="images/cutie_patottie.jpg">
+        </div>
+        <div id="right_pane">
+            <div id="story_text">
+            <p>hello</p>
+            <p>are u alive</p>
+            </div>
+            <div id="button_chocies">
+            <a id="but" href="#">Yes</a>
+            <a id="but" href="#">No</a>
+            </div>
+        </div>
 
 
 
