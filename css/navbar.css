@@ -25,7 +25,8 @@
                 padding: 0px;
                 background-color: black;
                 display: none;
-                position:absolute
+                position:absolute;
+                z-index: 1;
             }
             .dropdown:hover .dropdown-content{
                 display: block;

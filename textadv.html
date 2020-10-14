@@ -109,15 +109,15 @@
         intro();
 
         function intro(){
-            img.src = "images/sports.jpg";
+            img.src = "images/introstory.jpg";
             b1.innerHTML = "Continue";
             b2.style.display = "none";
             b3.style.display = "none";
             b4.style.display = "none";
-            p1.innerHTML = "You are";
-            p2.innerHTML = "You are";
+            p1.innerHTML = "England in the 17th Century, King Charles I is the current monarch. He is not liked, due to the infficient use of English tax dollars and overseas wars in which many men die.";
+            p2.innerHTML = "";
         }
-        function stayInSchool(){
+        function continueOption(){
             img.src = "images/cutie_patottie.jpg"
         }
     
@@ -127,12 +127,8 @@
     function bclick(button){
         if (state == "intro"){
             if(button == 1){
-                stayInSchool();
-                state="stayInSchool"
-            }
-            else if(button == 2){
-                goToCamp();
-                state = "goToCamp";
+                continueOption()
+                state="continueOption";
             }
         }
     }
