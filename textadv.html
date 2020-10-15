@@ -15,7 +15,7 @@
             background-color:grey;
         }
         #left_pane{
-            background-color:green;
+            background-color: black;
             height: 100%;
             width:50%;
             float:left;
@@ -24,22 +24,25 @@
             justify-content:center;
         }
         #right_pane{
-            height:100%;
-            float:left;
-            width: 50%;
-            background-color:blue;
+            background-color: black;
+            height: 100%;
+            width:50%;
+            float: right;
         }
         #story_text{
-            background-color:yellow;
-            height:80%;
-            color:red;
+            background-color: black;
+            height: 80%;
+            color: white;
+            float: top;
+            top: 0px;
+            
         }
         #button_chocies{
-            background-color:pink;
+            background-color: black;
             height:20%;
-            display:flex;
-            align-items:center;
-            justify-content:center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         #story_img{
             max-height: 97%;
@@ -50,8 +53,8 @@
         }
         .but{
             text-decoration: none;
-            color:white;
-            background-color:black;
+            color: white;
+            background-color: grey;
             border-radius:8px;
             padding:10px;
             font-size:16px;
@@ -83,8 +86,8 @@
         </div>
         <div id="right_pane">
             <div id="story_text">
-            <p id="p1">hello</p>
-            <p id="p2">are u alive</p>
+                <p id="p1">hello</p>
+                <p id="p2">are u alive</p>
             </div>
             <div id="button_chocies">
                 <a id="b1" class="but" href="#" onclick="bclick(1)">Yes</a>
